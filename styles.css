@@ -1,0 +1,144 @@
+@font-face{
+    font-family: lobster;
+    src: url(fonts/lobster.ttf);
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#header-content{
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: lobster;
+    text-align: center;
+    min-height: 100px;
+    padding-top: 5px; 
+    background-color: #191919;
+    color:#FFFFFF;
+}
+
+.navbar-brand{
+    font-family: lobster;
+    color: #191919;
+}
+
+#m-navbar{
+    border-color: #FFCC66;
+    border-radius: 0px;
+    color: #191919;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #191919;
+    text-shadow: 0 0 0px #191919;
+    text-align: center;
+}
+
+#m-navbar-text{
+    color: #191919; 
+}
+
+#m-navbar-fav-choice{
+    color: #191919;
+}
+
+#m-navbar-fav{
+    color: #191919;
+}
+
+#m-navbar-content{
+    background-color: #FFCC66;
+}
+
+#m-navbar-homebtn{
+    background-color: #FFCC66;
+}
+
+.jumbotron{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.input-lg{
+    width: 100%;
+}
+
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#movie-content{
+    display: none;
+}
+
+#mediaLib{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    
+    #m-navbar-fav{
+        text-align: center;
+        font-family: helvetica;
+        text-shadow: 0 0 0px #191919;
+    }
+    
+    #m-navbar-fav-choice{
+        text-align: center;
+        font-family: helvetica;
+        text-shadow: 0 0 0px #191919;
+    }
+    
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+        font-size: 18px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
